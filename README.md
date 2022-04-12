@@ -53,9 +53,8 @@ which is itself based on
 [this tutorial](https://archiveofourown.org/works/6434845/chapters/14729722).
 
 The wizard is built on the following libraries:
-* [PyQt5](https://pypi.org/project/PyQt5/)
+* [PySide2](https://pypi.org/project/PySide2/)
 * [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
 * [Mammoth](https://pypi.org/project/mammoth/)
-* [PyQtWebEngine](https://pypi.org/project/PyQtWebEngine/)
 
 Executable files for each release are produced using [PyInstaller](https://pypi.org/project/pyinstaller/).
