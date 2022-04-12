@@ -19,7 +19,7 @@ It turns this:
 Into this:  
 ![Example image](example.png)
 
-##Using the tool
+## Using the tool
   
 You can find the latest release of the tool 
 [on GitHub here](https://github.com/settifora/textficwizard/releases).
