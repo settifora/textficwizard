@@ -241,7 +241,7 @@ def processFile(filename):
         os.makedirs(OUTPUT_DIR)
 
     outfilePath = os.path.join(OUTPUT_DIR,
-                               os.path.basename(filename)[:-5] + '.txt')
+                               os.path.basename(filename)[:-5] + '.html')
 
     with open(outfilePath, 'w') as outfile:
         outfile.write(soup.prettify())
