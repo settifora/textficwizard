@@ -1,8 +1,9 @@
 import sys
 from math import floor
+from functools import partial
 import os
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import QIcon
+from PySide2.QtWidgets import *
+from PySide2.QtGui import QIcon
 
 from common.definitions import *
 from common import resources
@@ -24,9 +25,7 @@ class ListCharactersPanel(QWidget):
             characterButton = ClickyButton(character.getDisplayName(),
                                            self)
             characterButton.setStyleSheet(getCharacterButtonStyle(character))
-            characterButton.clicked.connect(lambda state, 
-                                            x=character:
-                                            mainWindow.addEditCharacter(x))
+            characterButton.clicked.connect(partial(mainWindow.addEditCharacter, character))
             
             characterButtons.append(characterButton)
         
@@ -378,6 +377,7 @@ class AppMainWindow(QMainWindow):
     def setContentPanel(self, widget):
         if self.contentPanel:
             self.mainLayout.removeWidget(self.contentPanel)
+            self.contentPanel.deleteLater()
         self.contentPanel = widget
         self.mainLayout.addWidget(widget, 1, 1)
         self.contentPanel.setProperty('class', 'content-panel')

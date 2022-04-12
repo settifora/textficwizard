@@ -1,6 +1,6 @@
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QCursor, QColor, QIcon
-from PyQt5.QtWidgets import QWidget, QLineEdit, QPushButton, QHBoxLayout, QColorDialog
+from PySide2.QtCore import Qt
+from PySide2.QtGui import QCursor, QColor, QIcon
+from PySide2.QtWidgets import QWidget, QLineEdit, QPushButton, QHBoxLayout, QColorDialog
 
 from common.definitions import getContrastColor, HEX_COLOR_REGEX
 from common import resources

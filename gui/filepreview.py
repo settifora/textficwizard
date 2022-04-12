@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import QMainWindow
-from PyQt5.QtWebEngineWidgets import QWebEngineView
+from PySide2.QtWidgets import QMainWindow
+from PySide2.QtWebEngineWidgets import QWebEngineView
 
 # Class representing the pop-up window used to preview output files
 from common.definitions import PREVIEW_CSS_CLASSES
