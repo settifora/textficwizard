@@ -31,9 +31,14 @@ The easiest way to run it is as follows:
 
 Alternatively, you can download and run the Python source code. You will need to
 install the module dependencies listed in requirements.txt (if you have pip, you
-can do this with `pip install -r requirements.txt`).
+can do this with `pip install -r requirements.txt`).  
 
-### Limitations
+## Issues
+If you have any issues with the wizard, please raise them by either:
+* Leaving a comment [on this AO3 fic](https://archiveofourown.org/works/38342398)
+* Opening an Issue on the GitHub repository
+
+## Limitations
 The following limitations currently apply, **but are being actively worked on**:
 * Character names in messages must be a single word containing only letters and 
 numbers (no spaces or special characters).
