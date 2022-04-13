@@ -53,8 +53,8 @@ may need to modify your input files for use with future versions of the wizard.
 
 ## Acknowledgements
 The formatting done by the wizard is based on the message formatting in 
-[Did You Miss Me?](https://archiveofourown.org/works/36253849/chapters/90375916),
-(explicit/ 18+, please mind the tags) which is itself based on
+[Did You Miss Me?](https://archiveofourown.org/works/36253849/chapters/90375916)
+(explicit/ 18+, please mind the tags), which is itself based on
 [this tutorial](https://archiveofourown.org/works/6434845/chapters/14729722).
 
 The wizard is built on the following libraries:
